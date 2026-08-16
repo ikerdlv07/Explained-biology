@@ -34,12 +34,11 @@ h1, h2, h3, table, li, p {
 
 body {
     background-color: white;
-    fonf-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
     max-width: 1000px;;
     padding: 70px;
     line-height: 1.7;
     color: #333
-
 }
 hi {
     font-size: 46px;
@@ -79,17 +78,17 @@ tr:nth-child(even) {
 }
 
 .navbar{
-    position:fixed;
+    position: fixed;
     top:0;
     left:0;
     width:100%;
     height:60px;
     background:#44ba52;
-    display:flex;
-    justify-content:left;
-    align-items:center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     padding:0 60px;
-    box-sizing:border-box;
+    box-sizing: border-box;
     z-index:1000;
     box-shadow:0 3px 10px rgb(6, 6, 6);
 }
@@ -108,6 +107,7 @@ tr:nth-child(even) {
     list-style:none;
     gap:10px;
     width: fit-content;
+    align-items: center;
 }
 
 .nav-links a{
@@ -119,6 +119,7 @@ tr:nth-child(even) {
     display:flex;
     align-items:center;
     height:60px;
+    white-space: nowrap;
 }
 
 .nav-links a:hover{
@@ -173,15 +174,20 @@ line-height: 1.2;
 }
 
 .dropdown-content a:hover {
-    background-color: #f0f0f0;
+    background-color: #44ba52;
 }
 .dropdown-button {
     background: none;
     border: none;
-    color: inherit;
-    font: inherit;
+    font-size:18px;
+    font-weight: 600;
     cursor: pointer;
-    padding: 0;
+    padding: 18px;
+    color: #f0f0f0;
+    white-space: nowrap;
+}
+.dropdown-button a:hover{
+    color:#55d26a;
 }
 
 .arrow {
