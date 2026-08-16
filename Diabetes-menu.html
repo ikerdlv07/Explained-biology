@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <script src="script.js"></script>
+<nav class="navbar">
+    
+<ul class="nav-links">
+    <li><a href="#">Home</a><li>
+    <li><a href="#">Genetics</a><li>
+
+<li class="dropdown">
+    <button class="dropdown-button">
+        Diseases <span class="arrow">↡</span>
+    </button>
+
+    <div class="dropdown-content">
+        <a href="Diabetes-menu.html">Diabetes</a>
+        <a href="#">Cancer</a>
+        <a href="#">Alzheimer</a>
+        <a href="#">Parkinson</a>
+        <a href="#">Cystic fibrosis</a>
+    </div>
+</li>
+    <li><a href="#">Gene editing</a></li>
+    <li><a href="#">Future Medicine</a></li>
+ </ul>
+</nav>
+    <h1>Diabetes</h1>
+    <p>
+        <a href="Diabetes.html">Diabetes</a>
+    </p>
+    <p>
+        <a href="Type 1 Diabetes.html">Type 1 Diabetes</a>
+    </p>
+    
+<script>
+document.querySelector(".dropdown-button").addEventListener("click", function() {
+    document.querySelector(".dropdown").classList.toggle("open");
+});
+</script>
+
+</body>
+</html>

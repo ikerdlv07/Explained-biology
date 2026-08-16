@@ -17,7 +17,7 @@
     </button>
 
         <div class="dropdown-content">
-        <a href="#">Diabetes</a>
+        <a href="Diabetes-menu.html">Diabetes</a>          
         <a href="#">Cancer</a>
         <a href="#">Alzheimer</a>
         <a href="#">Parkinson</a>
@@ -30,10 +30,10 @@
 </nav>
 
 
+
 <img src="Imagenes/2222.jpg" alt="Diabetes" class="banner">
 <h1>Diabetes</h1>
 <h2>Current situation</h2>
-<script src="script.js"></script>
 <p>Diabetes is a common disease in which the individual’s body stops producing enough insulin or any at all, or when your body does not respond in the right way. Due to this absence the glucose (sugar) level in blood rises (hyperglycemia), having numerous consequences. Diabetes affects people of all ages. Most forms of it are chronic (lifelong), and all forms are manageable with medicine. However, nowadays there is no cure to vanish this disease entirely.</p>
 <p>Was discovered in 1675 by Thomas Willis, nonetheless, there are uncontable evidences of people with the main symptoms. Scientist expeculate that its existence could be more than 3.500 years.</p>
 <p>Throughout the last decades, diabetes' casualties has drastically increased worldwide. According to IDF Atlas study in 2021, 537 millions of adults (20-79 years) were diagnosed with diabetes, a 10,5% of total population in that range. Scientists are expecting an increasing to 643 millions in 2030 (11,3%) and 783 million in 2045 (12,2%)</p>
@@ -126,7 +126,7 @@
 <td>Prediabetes</td>
 </tr>
 <tr>
-<td>More than 126L</td>
+<td>More than 126</td>
 <td>Diabetes</td>
 </tr>
 </table>
@@ -166,5 +166,11 @@
 <h3>Resources:</h3>
 
 <p>OMS, MedlinePlus</p>
+
+<script>
+document.querySelector(".dropdown-button").addEventListener("click", function() {
+    document.querySelector(".dropdown").classList.toggle("open");
+});
+</script>
 </body>
 </html>

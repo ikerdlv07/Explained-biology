@@ -17,16 +17,7 @@
     </button>
 
         <div class="dropdown-content">
-        <a href="Diabetes.html">Diabetes</a>
-        <div class="article-container">
-            <a href="Diabetes.html" class="article-card">
-                <h2>What is diabetes?</h2>
-            </a>
-
-            <a href="Type 1 Diabetes.html" class="article-card">
-                <h2>Type 1 Diabetes</h2>
-            </a>
-        </div>           
+        <a href="Diabetes-menu.html">Diabetes</a>          
         <a href="#">Cancer</a>
         <a href="#">Alzheimer</a>
         <a href="#">Parkinson</a>
@@ -68,7 +59,7 @@
 
 <li>Delta cells (δ): somatostatin</li>
 
-<p>Alpha cells are responsible for the production of glucagon. Glucagon is freed to mobilise the stored glycogen. In addition, after hours of fasting, to regulate the sugar levels, alpha cells produce glucagon which will command the liver to produce glucose.</p>+
+<p>Alpha cells are responsible for the production of glucagon. Glucagon is freed to mobilise the stored glycogen. In addition, after hours of fasting, to regulate the sugar levels, alpha cells produce glucagon which will command the liver to produce glucose.</p>
 
 <p>When we eat, the glucose levels rise; the beta cells notice this and automatically free insulin. The insulin adheres mainly to the muscular and adipose tissues. Acting as a "key" to give entrance to the glucose.</p>
 
@@ -83,3 +74,11 @@
 <li>Adipose tissue: increases glucose’ entrance and favours the storage of energy</li>
 
 <p>That is why insulin is considered a hormone that changes a cell's full metabolism.</p>
+
+<script>
+document.querySelector(".dropdown-button").addEventListener("click", function() {
+    document.querySelector(".dropdown").classList.toggle("open");
+});
+</script>
+</body>
+</html>
