@@ -47,6 +47,9 @@ h2 {
     color: black;
     margin-top: 26px;
 }
+h3 {
+    font-size: 16px;
+}
 p {
     font-size: 16px;
     line-height: 1.5;
